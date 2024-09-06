@@ -1,8 +1,6 @@
-let messages = [];
+const messages = JSON.parse(window.localStorage.getItem("messages")) || [];
 
 window.addEventListener("load", () => {
-  messages = JSON.parse(window.localStorage.getItem("messages"));
-
   const list = document.querySelector(".list");
   for (let i = 0; i < messages.length; i++) {
     const li = document.createElement("li");
