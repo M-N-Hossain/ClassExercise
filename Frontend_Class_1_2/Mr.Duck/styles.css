@@ -9,6 +9,16 @@ header {
     margin-bottom: 20px;
 }
 
+header .subPageBtn{
+    position: absolute;
+    right: 5px;
+}
+
+header .subPageBtn a{
+    color: white;
+    text-decoration: none;
+}
+
 .logo {
     display: inline-flex;
     align-items: center;
@@ -28,7 +38,12 @@ h1 {
     margin-left: 10px;
     color: #333;
 }
-
+.helloMsg{
+    transform: rotate(-20deg);
+    position: absolute;
+    right: 650px;
+    top: 2%;
+}
 .input-container {
     margin-top: 20px;
 }
@@ -60,4 +75,12 @@ button:hover {
     margin-top: 20px;
     font-size: 18px;
     color: #555;
+}
+
+
+li{
+    background-color: rgb(144, 231, 231);
+    margin: 5px 0;
+    padding: 5px;
+    cursor: pointer;
 }
